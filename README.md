@@ -1,8 +1,8 @@
-//////////////////////////////////
-/ Created by Miko Sramek		     /
-/ Contact: contact@mikosramek.ca /
-/		 @MikoGGSramek               /
-/                      14/12/18  /             
+Created by Miko Sramek
+Contact: contact@mikosramek.ca
+@MikoGGSramek
+14/12/18           
+
 //////////////////////////////////
 
 Current Features:
