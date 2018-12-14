@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8c8a974951c65439f82e4667b2b6da, type: 3}
+  m_Name: party_dialogue
+  m_EditorClassIdentifier: 
+  talkingPoints:
+  - text: Hello.
+    npc: {fileID: 11400000, guid: 25ed1667af3d3274ab275f4e372e93e9, type: 2}
+    currentPortrait: 2
+    responses:
+    - text: I'm hungry.
+      responseID: 39
+    - text: Who goes there?
+      responseID: 53
+    events: []
+    startingPoint: 1
+    x: 71
+    y: 72
+    h: 265
+    w: 250
+    m_ID: 66
+  - text: So am I!
+    npc: {fileID: 11400000, guid: 581ceee90dc572b498ff7db2818a48ee, type: 2}
+    currentPortrait: 0
+    responses:
+    - text: Let's cook.
+      responseID: 70
+    - text: But you just ate!
+      responseID: 84
+    events: []
+    startingPoint: 0
+    x: 405
+    y: 25
+    h: 265
+    w: 250
+    m_ID: 39
+  - text: It's just me.
+    npc: {fileID: 11400000, guid: 25ed1667af3d3274ab275f4e372e93e9, type: 2}
+    currentPortrait: 0
+    responses: []
+    events: []
+    startingPoint: 0
+    x: 276
+    y: 361
+    h: 185
+    w: 250
+    m_ID: 53
+  - text: Too bad we have no food.
+    npc: {fileID: 11400000, guid: 581ceee90dc572b498ff7db2818a48ee, type: 2}
+    currentPortrait: 1
+    responses:
+    - text: Hmmm...
+      responseID: 5
+    events: []
+    startingPoint: 0
+    x: 748
+    y: 18
+    h: 225
+    w: 250
+    m_ID: 70
+  - text: And that's why we're out of bread....
+    npc: {fileID: 11400000, guid: 25ed1667af3d3274ab275f4e372e93e9, type: 2}
+    currentPortrait: 1
+    responses: []
+    events: []
+    startingPoint: 0
+    x: 679
+    y: 292
+    h: 185
+    w: 250
+    m_ID: 84
+  - text: So then I'll go hunting.
+    npc: {fileID: 11400000, guid: 581ceee90dc572b498ff7db2818a48ee, type: 2}
+    currentPortrait: 0
+    responses: []
+    events: []
+    startingPoint: 0
+    x: 1062
+    y: 105
+    h: 185
+    w: 250
+    m_ID: 5
+  usedIDS: 42000000270000003500000046000000000000005400000005000000

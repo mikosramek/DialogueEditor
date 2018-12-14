@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c44058bdb739c14b9ece67af5b02998, type: 3}
+  m_Name: female_Profile
+  m_EditorClassIdentifier: 
+  characterName: Woman
+  portraits:
+  - mood: 0
+    image: {fileID: 21300000, guid: 6c303aa1844aa154f98ea82ba2dd964e, type: 3}
+  - mood: 0
+    image: {fileID: 21300000, guid: 009fa0b04352e124aaf0d8ad85194207, type: 3}
+  - mood: 0
+    image: {fileID: 21300000, guid: b9096a07de3b52a469d0770706249c95, type: 3}
+  currentPortrait: 0
