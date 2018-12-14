@@ -1,29 +1,29 @@
-Created by Miko Sramek
-Contact: contact@mikosramek.ca
-@MikoGGSramek
-14/12/18           
+#Created by Miko Sramek
+#Contact: contact@mikosramek.ca
+#@MikoGGSramek
+#14/12/18           
 
 //////////////////////////////////
 
-Current Features:
+#Current Features:
 
 Create NPCProfiles that can contain different moods and sprites.
 Create Dialogue nodes that use the profiles, have text, and can link to other nodes via responses.
 
 
 
-Planned Features:
+#Planned Features:
 
 Events (but probably not, because it's too specific!)
 
 
-Bugs / Weirdness:
+#Bugs / Weirdness:
 
 NPCProfile assets need to end with "_Profile" for the editor to find them
 Right clicking a node -> Reset Talking Point will reset it to default size (ie, it has no responses) so it'll get weird...
 
 
-Usage:
+#Usage:
 
 The DialogueHolder asset has a list of Talking Point objects.
 
